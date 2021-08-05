@@ -14,6 +14,6 @@ public class MainAnswers
 //        System.out.println("answerThree.throwThreeAsc() = " + Arrays.toString(answerThree.throwThreeAsc(data)));
         
         AnswerTwo answerTwo = new AnswerTwo();
-        System.out.println("answerTwo.listA(5) = " + answerTwo.listA(5));
+        System.out.println("answerTwo.listA(5) = " + answerTwo.listB(5));
     }
 }

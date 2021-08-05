@@ -17,4 +17,20 @@ public class AnswerTwo
 
         return result;
     }
+
+    public String listB(int numberCount)
+    {
+        String result = "";
+        for (int i = 0; i <= numberCount; i++)
+        {
+            for (int j = i; j > 0; j--)
+            {
+                result += j;
+            }
+
+            result += "\n";
+        }
+
+        return result;
+    }
 }
