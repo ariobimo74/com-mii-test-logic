@@ -9,8 +9,11 @@ public class MainAnswers
 //        AnswerOne answerOne = new AnswerOne();
 //        System.out.println("answerOne.answerList(15) = " + answerOne.okYes(15));
 
-        int[] data = {12, 9, 13, 6 ,10, 4, 7, 2};
-        AnswerThree answerThree = new AnswerThree();
-        System.out.println("answerThree.throwThreeAsc() = " + Arrays.toString(answerThree.throwThreeAsc(data)));
+//        int[] data = {12, 9, 13, 6 ,10, 4, 7, 2};
+//        AnswerThree answerThree = new AnswerThree();
+//        System.out.println("answerThree.throwThreeAsc() = " + Arrays.toString(answerThree.throwThreeAsc(data)));
+        
+        AnswerTwo answerTwo = new AnswerTwo();
+        System.out.println("answerTwo.listA(5) = " + answerTwo.listA(5));
     }
 }
