@@ -5,7 +5,7 @@ import java.util.List;
 
 public class AnswerOne
 {
-    public List<String> answerList(int numberCount)
+    public List<String> okYes(int numberCount)
     {
         List<String> resultList = new ArrayList<>();
 
